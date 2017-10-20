@@ -1,0 +1,24 @@
+/*Utilizamos el selector de etiqueta h1 para establecer su contorno y la alineación del texto*/
+h1 {
+  outline: 1px solid yellow;
+  text-align: center;
+}
+/*Utilizamos el selector de clase .caja para establecer su ancho, relleno, borde, margen izquierdo, box sizing y la propiedad de posicionamiento float.*/
+.caja {
+  /*outline: 1px solid red;*/
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #999;
+  margin-left: 16px;
+  box-sizing: border-box;
+  float: left;
+}
+/*Utilizamos el selector de etiqueta img para establecer el contorno y ancho máximo de nuestra imagen*/
+img {
+  outline: 1px solid blue;
+  max-width: 100%;
+}
+/*Utilizamos el selector de etiqueta p para establecer el contorno de los párrafos*/
+p {
+  outline: 1px solid orange;
+}
